@@ -1,1 +1,207 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*   {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #FF0404;
+    color: #042AFF;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+body {
+    font-family:sans-serif;
+    }
+
+table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+h1  {
+    color:red
+}        
+    
+
+th, td {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Master chef</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main page</li>
+      <li>Menu</li>
+      <li>Location</li>
+      
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Master chef</h1>
+    <p>At Master Chef restaurant we have a wide selction of foods. To our breakfast,lunch and dinner menus. To our dessert menu and our bevrages.Since we are a italian restaurant we have the classics. But we have made new orginal recipes which you must try. To find them just scroll down and you will see the foods and the prices of them.</p>
+    <p></p>
+  </div>
+</div>
+
+
+
+<h1>Breakfast</h1>
+<table>
+<tr>
+	<th>Item</th>
+    <th>Description</th>
+    <th>Price</th>
+    </tr>
+
+  <tr>
+    <td>House Toast</td>
+    <td>Declicious bread served fresh or toasted with your choice of spread [butter,marmalade,strawberry jam or honey].</td> 
+    <td>5:00$</td>
+  </tr>
+  <tr>
+    <td>Bacon and egg roll</td>
+    <td>Bacon and free range eggs served in your chioce of a fresh baguette. Also request your preference of tomato or BBQ suace.</td>
+    <td>7:99$</td>
+  </tr>
+  <tr>
+    <td>Sauasge and egg roll</td>
+    <td>Tasty pork sausage and free range served in your chioce of a fresh baguette. Also request your preference of tomato or BBQ suace.</td>
+    <td>8:90$</td>
+  </tr>
+  <tr>
+    <td>Ham and egg roll</td>
+    <td>Ham and free range eggs served in your choice of a fresh baguette. Also request your preference of tomato or BBQ sauce</td> 
+    <td>6:99$</td>
+  </tr>
+  <tr>
+    <td>Big homemade style pancakes</td>
+    <td>Finally enjoy big homemade pancakes topped with berries,strawberrys,ice cream and whipping cream on top, topped with a good size cherry.</td>
+    <td>11:99$</td>
+  </tr>
+  <tr>
+    <td>Old fashioned scarambled eggs</td>
+    <td>Have 5 huge eggs get scarambled eggs on your plate with cheese,seasoning [of your chioce] and tomaotes.</td>
+    <td>9:99$</td>
+  </tr>
+  </table>
+    
+<h1>Lunch</h1>
+<table>
+	<tr>
+	<th>Item</th>
+    <th>Description</th>
+    <th>Price</th>
+    </tr>
+  <tr id="special">
+    <td>Bacon cheddar burger</td>
+    <td>fresh Canadian beef burger with hickory smoked bacon, Cheddar cheese, lettuce, tomato and Triple "O" sauce.</td> 
+    <td>19.00$</td>
+  </tr>
+  <tr>
+    <td>Double Double</td>
+    <td>Our biggest burger. A 1/2 lb. burger made with double beef patties, double cheese, lettuce, tomato, Triple "O" sauce and double dills.</td>
+    <td>14:99$</td>
+  </tr>
+  <tr>
+    <td>West Coast Salmon Burger</td>
+    <td>Wild salmon fillet with pickled onions, tartar sauce, arugula, vine-ripened tomatoes and mayo.</td>
+    <td>22:99$</td>
+  </tr>
+  <tr>
+    <td>Hot Chargrilled Chicken Caesar Wrap</td>
+    <td>Choice of Lemon-grilled chicken OR crispy buttermilk chicken wrapped in our salsa tortilla with crisp romaine, bacon and Parmesan tossed in our signature Caesar dressing</td> 
+    <td>30:99$</td>
+  </tr>
+  <tr>
+    <td>Dippin’ Chicken</td>
+    <td>Crispy breaded chicken tenders. Choice of dip.</td>
+    <td>11:99$</td>
+  </tr>
+  <tr>
+    <td>Nat's Original Beef Dip</td>
+    <td>Certified AAA roast beef piled high on garlic panini bread. Served with au jus. Load up your dip with Jack cheese, grilled mushrooms and caramelized onions for an aditional charge.</td>
+    <td>24:99$</td>
+  </tr>
+  </table>
+  
+  <h1>Dinner</h1>
+<table>
+	<tr>
+	<th>Item</th>
+    <th>Description</th>
+    <th>Price</th>
+    </tr>
+
+  <tr>
+    <td>New York Steak Dinner</td>
+    <td>Certified Angus Beef New York Striploin grilled to perfection. Mashed potatoes and lemon and Parmesan grilled broccoli.</td> 
+    <td>19.00$</td>
+  </tr>
+  <tr>
+    <td>New York Steak Frites</td>
+    <td>Indulge in this classic French bistro inspired dish. Our 9 oz. Certified Angus Beef® New York Striploin grilled to perfection. Garlic Parmesan fries and arugula.</td>
+    <td>24:99$</td>
+  </tr>
+  <tr>
+    <td>Centre Cut Apple-Brined Pork Chop</td>
+    <td>Grilled 8 oz. Centre Cut Canadian pork chop topped with our house-made apple chutney. Mashed potatoes and lemon and Parmesan grilled broccoli.</td>
+    <td>30:99$</td>
+  </tr>
+  <tr>
+    <td>Baby Back Ribs</td>
+    <td>Tender slow roasted baby back ribs glazed with Tennessee Whiskey BBQ sauce. Fries and creamy coleslaw. Available in full and half rack.</td> 
+    <td>24:99$</td>
+  </tr>
+  <tr>
+    <td>The Spot’s Fish and Chips</td>
+    <td>Crispy breaded chicken tenders. Choice of dip.</td>
+    <td>20:99$</td>
+  </tr>
+  <tr>
+    <td>Chicken Pot Pie</td>
+    <td>Tender chicken in a home-style broth with potato, carrot, celery and peas baked with a flaky puff pastry. Served with The Spot’s salad.</td>
+    <td>24:99$</td>
+  </tr>
+  </table>
