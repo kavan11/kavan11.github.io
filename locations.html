@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #000000;
+    color: #0489FF;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
 
+<div class="header">
+  <h1>Master Chef Resturant</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main Page</li>
+      <li>Menu</li>
+      <li>Location</li>
+      
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Master Chef</h1>
+    <p>At master chef resturant we have 4 locations. We have one at the moon which is on 89 A ave. The second location is on mars. That is on 96698 A ave near Burger King. The third location is on earth which is on 88 A ave 13950. The last but not least location is on Saturn. The planet with a ring on it. That is on 73 A ave 46548.</p>
+    <p>For our hours of operation. Look here. On the moon is 10:00 a.m to 12:00 p.m and you can also call a resrvation. For mars is 9:00 a.m to 10:00 p.m. Then for earth is 12:00 a.m to 12:00 p.m and for saturn is 8:00 a.m to 12:00 p.m so a long day for the workers.</p >
+  </div>
+  <img src= "http://media.idownloadblog.com/wp-content/uploads/2016/01/location-top.jpg">
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+
+</body>
+</html>
